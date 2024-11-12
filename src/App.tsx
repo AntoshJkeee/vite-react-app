@@ -10,7 +10,7 @@ function App() {
     return a + b;
   }
 
-  handleCountChange(5, 7);
+  handleCountChange(5, 'zxc');
 
   return (
     <>

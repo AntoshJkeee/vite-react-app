@@ -1,4 +1,5 @@
 {
+  "*.{ts,tsx}": ["tslint --fix --config tslint.precommit.json --project tsconfig.json", "git add"],
   "*.{js,ts,tsx,jsx}": [
     "prettier --write",
     "node_modules/.bin/eslint --max-warnings=0"

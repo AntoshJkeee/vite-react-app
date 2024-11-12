@@ -10,7 +10,7 @@ function App() {
     return a + b;
   }
 
-                      handleCountChange('s', 7);
+  handleCountChange(6, 7);
 
   return (
     <>

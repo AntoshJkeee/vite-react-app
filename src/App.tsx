@@ -6,11 +6,11 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
-  function handleCountChange(a: number, b: number) {
-    return a + b;
+  function handleCountChange(a: number, b: number, c: number) {
+    return a + b + c;
   }
 
-  handleCountChange(5, 4);
+  handleCountChange(5, 4, 1);
 
   return (
     <>

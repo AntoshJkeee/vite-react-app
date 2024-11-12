@@ -6,6 +6,12 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
+  function handleCountChange(a: number, b: number) {
+    return a + b;
+  }
+
+  handleCountChange(4, 7);
+
   return (
     <>
       <div>

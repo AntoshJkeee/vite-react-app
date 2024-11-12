@@ -54,11 +54,5 @@
     "cz-customizable": {
       "config": "./commitizen.cjs"
     }
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx,jsx}": [
-      "prettier --write",
-      "node_modules/.bin/eslint --max-warnings=0"
-    ]
   }
 }

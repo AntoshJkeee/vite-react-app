@@ -10,12 +10,12 @@ function App() {
     return a + b;
   }
 
-            handleCountChange('4', 7, 45);
+  handleCountChange('4', 7, 45);
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
+        <a href="https://vite.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
